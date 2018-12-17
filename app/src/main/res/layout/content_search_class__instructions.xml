@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SearchClass_Instructions_LHW_Elevator"
+    tools:showIn="@layout/activity_searchclass__instructions">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row1click">
+
+                <ImageView
+                    android:id="@+id/lhwest_elevator_1"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/lhwest_elevator_1" />
+
+                <TextView
+                    android:id="@+id/txt_lhwest_elevator_1"
+                    android:layout_width="248dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Go to Exit"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_lhwest_elevator_1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row2click">
+
+                <ImageView
+                    android:id="@+id/lhwest_elevator_2"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/lhwest_elevator_2" />
+
+                <TextView
+                    android:id="@+id/txtlhwest_elevator_2"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Walk Straight through this hallway"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_lhwest_elevator_2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_up_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row3click">
+
+                <ImageView
+                    android:id="@+id/lhwest_elevator_3"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/lhwest_elevator_3" />
+
+                <TextView
+                    android:id="@+id/txt_lhwest_elevator_3"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Take Left "
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_lhwest_elevator_3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_left_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row4click">
+
+                <ImageView
+                    android:id="@+id/lhwest_elevator_4"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/lhwest_elevator_4" />
+
+                <TextView
+                    android:id="@+id/txt_lhwest_elevator_4"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Walk Straight towards the exit"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_lhwest_elevator_4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_up_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row5click">
+
+                <ImageView
+                    android:id="@+id/lhwest_elevator_5"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/lhwest_elevator_5" />
+
+                <TextView
+                    android:id="@+id/txt_lhwest_elevator_5"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="At the Exit take left"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_lhwest_elevator_5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_left_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row6click">
+
+                <ImageView
+                    android:id="@+id/lhwest_elevator_6"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/lhwest_elevator_6" />
+
+                <TextView
+                    android:id="@+id/txt_lhwest_elevator_6"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Walk Straight towards the elevator"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_lhwest_elevator_6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_up_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line6"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row7click">
+
+                <ImageView
+                    android:id="@+id/lhwest_elevator_7"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/lhwest_elevator_7" />
+
+                <TextView
+                    android:id="@+id/txt_lhwest_elevator_7"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Do you see the phone at the right ?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_lhwest_elevator_7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line7"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row8click">
+
+                <ImageView
+                    android:id="@+id/lhwest_elevator_8"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/lhwest_elevator_8" />
+
+                <TextView
+                    android:id="@+id/txt_lhwest_elevator_8"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Your Elevator is at the right"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_lhwest_elevator_8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line8"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

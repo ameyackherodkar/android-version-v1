@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SourceSpinnerArray">
+        <item>Select Source Location</item>
+        <item>Lecture Hall West</item>
+        <item>Elevator</item>
+        <item>Cafeteria</item>
+    </string-array>
+    <string-array name="DestinationSpinnerArray">
+        <item>Select Destination Location</item>
+        <item>Lecture Hall West</item>
+        <item>Elevator</item>
+        <item>Cafeteria</item>
+    </string-array>
+</resources>

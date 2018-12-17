@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchClass_Instructions_Cafeteria_LHW">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row1click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_1"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_1" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_1"
+                    android:layout_width="248dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Do you see the door?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row2click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_2"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_2" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_2"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Walk up the stairs"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_up_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row3click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_3"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_3" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_3"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Keep walking upstairs"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_left_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row4click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_4"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_4" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_4"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Do you see the door?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_up_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row5lick">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_5"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_5" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_5"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Walk through the door"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_left_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row6click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_6"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_6" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_6"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="DO you see this?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_up_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line6"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row7click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_7"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_7" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_7"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Walk straight "
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line7"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row8click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_8"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_8" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_8"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Do u see this?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line9"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row9click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_9"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_9" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_9"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Move Straight?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line10"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row10click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_10"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_10" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_10"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Do u see this?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_10"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line11"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row11click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_11"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_11" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_11"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Walk Straight"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_11"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line12"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row12click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_12"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_12" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_12"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Do u see this?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_12"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line13"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row13click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_13"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_8" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_13"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Do u see this?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_13"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line14"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row14click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_14"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_14" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_14"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Walk straight"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_14"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line15"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row15click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_15"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_15" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_15"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Do u see this?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_15"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line16"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row16click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_16"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_16" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_16"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Walk straight"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_16"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line17"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row17click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_17"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_17" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_17"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="Do you see this?"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_17"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line18"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="row18click">
+
+                <ImageView
+                    android:id="@+id/cafeteria_lhwest_18"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cafeteria_lhwest_18" />
+
+                <TextView
+                    android:id="@+id/txt_cafeteria_lhwest_18"
+                    android:layout_width="226dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="sans-serif"
+                    android:hint=""
+                    android:text="If yes your destination is on the right"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_cafeteria_lhwest_18"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/arrows_right_icon" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/line19"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_weight="1"
+                    android:background="#FF909090"
+                    android:padding="2dip" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
